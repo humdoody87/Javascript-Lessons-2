@@ -14,12 +14,27 @@
 
         console.log('Hi, here are some basic functions.')
 
-        function add7(a) {
-            return a + 7;
-        }
 
-        add7(3);
+       function multiply(a, b) {
+
+        return a * b;
+
+       }
+
+       let result = multiply(3, 5);
+       console.log(result);
+
+       function capitalize(string) {
+
+        return string.charAt(0).toUpperCase() + string.slice(1);
+
+       }
+
+       const myString="hello world";
+       const capitalizedString = capitalizedFirstLetter(myString);
+       console.log(capitalizedString);
 
     </script>
+
 </body>
 </html>
